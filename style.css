@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.background {
+  background-color: darkgray;
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.container {
+  width: 75%;
+  background-color: white;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.shoe {
+  height: 200px;
+  width: 200px;
+}
