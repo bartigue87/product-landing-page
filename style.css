@@ -4,12 +4,13 @@
 
 body {
   margin: 0;
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 .background {
-  background-color: darkgray;
+  background-color: #8f8e93;
   position: absolute;
+  top: 0;
   width: 50%;
   height: 100vh;
   z-index: -1;
@@ -19,10 +20,65 @@ body {
   width: 75%;
   background-color: white;
   height: 100%;
-  margin: 0 auto;
+  margin: 75px auto;
+  padding: 0 20px 20px 20px;
+  border-radius: 15px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav,
+ul {
+  list-style: none;
+}
+nav {
+  width: 80%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .shoe {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 500px;
+  margin-right: 80px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+
+button {
+  margin-top: 70px;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  width: 150px;
+  height: 55px;
+  border: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+p {
+  width: 70%;
 }
