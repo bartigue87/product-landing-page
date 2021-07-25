@@ -4,17 +4,22 @@
 
 body {
   margin: 0;
-  background-color: black;
+  background: rgb(143, 142, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(143, 142, 147, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
-.background {
+/* .background {
   background-color: #8f8e93;
   position: absolute;
   top: 0;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   z-index: -1;
-}
+} */
 
 .container {
   width: 75%;
